@@ -76,7 +76,7 @@ a{
     display: block;
 }
 
-.topNavBar > nav > ul > li > a:hover {
+.topNavBar nav > ul > li > a:hover {
     border-bottom-color: #dc6465;
 }
 
