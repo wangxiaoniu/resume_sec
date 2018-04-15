@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#efefef;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.clearfix::after{
+    content:'';
+    display: block;
+    clear:both;
+}
+/* 公共部分结束 */
+.topNavBar{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.topNavBarinner{
+    padding:20px 16px;
+}
+.mask{
+    height: 515px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.topNavBar .logo{
+    font-family: 'Arial Black';
+    font-size: 24px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    float: left;
+}
+
+.topNavBar .logo .rs{
+    color:#e6686a;
+    margin-right: 4px;
+}
+.topNavBar .logo .card{
+    color: #9a9da2;
+}
+.topNavBar nav{
+    padding-top: 7px;
+    float: right;
+}
+.topNavBar nav a{
+    color:rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-weight: bold;
+}
+.topNavBar nav ul{
+    padding:0;
+    margin:0;
+}
+.topNavBar nav ul>li{
+    float: left;
+    margin-left:17px;
+    margin-right: 17px;
+}
+.topNavBar nav ul>li>a{
+    font-size: 12px;
+    color: #b7b7b7;
+    font-weight: bold;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.topNavBar > nav > ul > li > a:hover {
+    border-bottom-color: #dc6465;
+}
+
+/* banner */
+.banner{
+    height: 515px;
+    background: url(./img/rs-cover.jpg);
+    background-position:center center; /* 背景上下左右居中 */
+    background-size:cover; /* 按比例缩放 */
+}
+/* cardPerson */
+.cardPerson{
+    max-width: 940px;
+    margin-left:auto;
+    margin-right:auto;
+    background: #fff;
+}
+.pictureAndText{
+    padding:50px 50px;
+}
+.pictureAndText .picture{
+    float: left;
+}
+.pictureAndText .text{
+    float: left;
+    margin-left: 65px;
+    width: 470px;
+}
+.pictureAndText .text hr{
+    height: 0;
+    border: none;
+    border-top:1px solid #DEDEDE;
+    margin:20px 0;
+}
+.pictureAndText .welcome{
+    background: #e6686a;
+    color: white;
+    display: inline-block;
+    padding: 4px 16px;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.pictureAndText .welcome .triangle{
+    display: block;
+    border: 10px solid transparent;
+    width: 0px;
+    border-left-color: #e6686a;
+    border-top-width: 0px;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+}
+.pictureAndText .text h1{
+    margin-top: 18px;
+}
+.cardPerson dl dt,
+.cardPerson dl dd{
+  float: left;
+  padding: 5px 0;
+ 
+}
+.cardPerson dl dt{
+  width: 30%;
+  font-weight: bold;
+}
+.cardPerson dl dd{
+  width: 70%;
+  color: #9da0a7;
+}
+
+.cardPerson > footer.media{
+    background:#E6686A;
+    text-align: center;
+}
+.cardPerson >footer.media a{
+    display: inline-block;
+width: 40px;
+line-height: 30px;
+padding: 5px 0;
+border-radius: 50%;
+margin: 16px;
+}
+
+.cardPerson >footer.media a:hover{
+    background: #CF5D5F;
+
+}
+.cardPerson svg{
+    width: 30px;
+    height: 30px;
+    fill:white;
+    vertical-align: top;
+
+}
+
+
+
